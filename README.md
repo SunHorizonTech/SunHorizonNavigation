@@ -1,4 +1,4 @@
-# SunHorizonNavigation
+# SunHorizonNavigation 双泓科技
 
 **面向人形机器人的 ROS 2 导航软件：让定位、近身感知、路径规划与运动监督使用一致、可追溯的观测。**
 
