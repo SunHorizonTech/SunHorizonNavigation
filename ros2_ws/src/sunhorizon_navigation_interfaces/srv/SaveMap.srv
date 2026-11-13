@@ -1,0 +1,7 @@
+string session_id
+string requested_map_id
+---
+bool accepted
+int32 code
+string map_id
+string reason

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>sunhorizon_airy_adapter</name>
+  <version>0.1.0</version>
+  <description>Fail-closed Airy PointCloud2 and IMU calibration adapter.</description>
+  <maintainer email="46861254+dongchany@users.noreply.github.com">SunHorizon Navigation</maintainer>
+  <license>Apache-2.0</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>diagnostic_msgs</depend>
+  <depend>rclcpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>tf2</depend>
+  <test_depend>ament_lint_auto</test_depend>
+  <export><build_type>ament_cmake</build_type></export>
+</package>

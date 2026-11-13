@@ -1,0 +1,28 @@
+std_msgs/Header header
+
+uint8 STATE_UNKNOWN=0
+uint8 STATE_INITIALIZING=1
+uint8 STATE_HEALTHY=2
+uint8 STATE_DEGRADED=3
+uint8 STATE_UNHEALTHY=4
+
+uint8 state
+bool chest_pair_fresh
+bool chest_camera_info_valid
+bool chest_alignment_accepted
+bool chest_depth_scale_accepted
+bool chest_pointcloud_healthy
+bool belly_depth_fresh
+bool belly_camera_info_valid
+bool belly_depth_scale_accepted
+bool belly_pointcloud_healthy
+float64 last_pair_delta_ms
+float64 accepted_pair_rate_hz
+float64 rejected_pair_ratio
+float64 chest_pair_age_sec
+float64 belly_depth_age_sec
+uint64 accepted_pairs
+uint64 rejected_pairs
+string reason
+float64 chest_pointcloud_age_sec
+float64 belly_pointcloud_age_sec

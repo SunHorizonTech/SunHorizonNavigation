@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>sunhorizon_camera_runtime</name>
+  <version>0.1.0</version>
+  <description>Fail-closed Robot A RGB-D device owner using OrbbecSDK directly.</description>
+  <maintainer email="46861254+dongchany@users.noreply.github.com">SunHorizon Navigation</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>diagnostic_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>rclcpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>tf2_ros</depend>
+  <exec_depend>ament_index_python</exec_depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>sunhorizon_rgbd_adapter</exec_depend>
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

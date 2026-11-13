@@ -1,0 +1,8 @@
+std_msgs/Header header
+geometry_msgs/PoseWithCovariance pose
+string backend
+bool converged
+float64 score
+uint32 iterations
+float64 initial_to_result_distance
+string diagnostic_reason

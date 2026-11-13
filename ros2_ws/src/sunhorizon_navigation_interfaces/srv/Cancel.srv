@@ -1,0 +1,5 @@
+string task_id
+---
+bool accepted
+int32 code
+string reason

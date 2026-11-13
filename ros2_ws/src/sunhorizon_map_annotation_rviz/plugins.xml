@@ -1,0 +1,5 @@
+<library path="map_annotation_panel">
+  <class name="sunhorizon_map_annotation_rviz/AnnotationPanel" type="sunhorizon_map_annotation_rviz::AnnotationPanel" base_class_type="rviz_common::Panel">
+    <description>Saved map glass and keepout annotation; no navigation control.</description>
+  </class>
+</library>

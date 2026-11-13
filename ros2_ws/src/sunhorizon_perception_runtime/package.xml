@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>sunhorizon_perception_runtime</name>
+  <version>0.1.0</version>
+  <description>Direct SDK, bounded joint FK and source-time perception runtime.</description>
+  <maintainer email="46861254+dongchany@users.noreply.github.com">SunHorizon</maintainer>
+  <license>Apache-2.0</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rclcpp</depend><depend>rcl_interfaces</depend><depend>rmw</depend>
+  <depend>sensor_msgs</depend><depend>geometry_msgs</depend><depend>std_msgs</depend><depend>diagnostic_msgs</depend>
+  <depend>tf2_geometry_msgs</depend><depend>tf2</depend><depend>tf2_ros</depend><depend>urdf</depend><depend>kdl_parser</depend><depend>orocos_kdl</depend>
+  <depend>openssl</depend>
+  <depend>nlohmann_json</depend>
+  <exec_depend>ament_index_python</exec_depend>
+  <exec_depend>python3</exec_depend>
+  <depend>sunhorizon_camera_runtime</depend><depend>sunhorizon_navigation_core</depend>
+  <depend>sunhorizon_navigation_interfaces</depend><depend>sunhorizon_obstacle_coverage</depend>
+  <depend>sunhorizon_rgbd_adapter</depend><depend>sunhorizon_platform_adapter_casbot02</depend>
+  <test_depend>ament_cmake_gtest</test_depend>
+  <export><build_type>ament_cmake</build_type></export>
+</package>

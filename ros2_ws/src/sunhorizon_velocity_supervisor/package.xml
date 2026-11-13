@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>sunhorizon_velocity_supervisor</name>
+  <version>0.1.0</version>
+  <description>Exclusive, fail-closed final velocity authority for SunHorizon navigation.</description>
+  <maintainer email="46861254+dongchany@users.noreply.github.com">SunHorizon Navigation</maintainer>
+  <license>Apache-2.0</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>geometry_msgs</depend>
+  <depend>rcl_interfaces</depend>
+  <depend>rclcpp</depend>
+  <depend>std_srvs</depend>
+  <depend>sunhorizon_navigation_core</depend>
+  <depend>sunhorizon_obstacle_coverage</depend>
+  <depend>sunhorizon_navigation_interfaces</depend>
+  <depend>tf2</depend>
+  <depend>tf2_geometry_msgs</depend>
+  <depend>tf2_ros</depend>
+  <test_depend>ament_cmake_gtest</test_depend>
+  <test_depend>ament_cmake_pytest</test_depend>
+  <test_depend>ament_lint_auto</test_depend>
+  <export><build_type>ament_cmake</build_type></export>
+</package>

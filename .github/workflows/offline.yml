@@ -1,0 +1,12 @@
+name: Offline component tests
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  offline:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+      - run: cmake -S . -B build
+      - run: cmake --build build --parallel 2
+      - run: ctest --test-dir build --output-on-failure

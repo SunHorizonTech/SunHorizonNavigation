@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>sunhorizon_obstacle_coverage</name>
+  <version>0.1.0</version>
+  <description>Fail-closed obstacle coverage profiles for Airy and visual sensors.</description>
+  <maintainer email="46861254+dongchany@users.noreply.github.com">SunHorizon Navigation</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rclcpp</depend>
+  <depend>rcl_interfaces</depend>
+  <depend>sensor_msgs</depend>
+  <depend>diagnostic_msgs</depend>
+  <depend>sunhorizon_navigation_interfaces</depend>
+  <depend>sunhorizon_navigation_core</depend>
+  <depend>tf2_ros</depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <test_depend>ament_cmake_gtest</test_depend>
+  <test_depend>ament_cmake_pytest</test_depend>
+  <test_depend>rclpy</test_depend>
+  <test_depend>geometry_msgs</test_depend>
+
+  <export><build_type>ament_cmake</build_type></export>
+</package>

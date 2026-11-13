@@ -1,0 +1,5 @@
+string map_id
+---
+bool accepted
+int32 code
+string reason

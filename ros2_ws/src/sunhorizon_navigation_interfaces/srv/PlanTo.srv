@@ -1,0 +1,9 @@
+string map_id
+geometry_msgs/PoseStamped goal
+---
+bool feasible
+int32 code
+string path_id
+float64 path_length_m
+float64 estimated_duration_sec
+string reason

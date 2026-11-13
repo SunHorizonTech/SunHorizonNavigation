@@ -1,0 +1,6 @@
+string requested_name
+---
+bool accepted
+int32 code
+string session_id
+string reason

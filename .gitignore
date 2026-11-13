@@ -1,0 +1,14 @@
+/build/
+/ros2_ws/build/
+/ros2_ws/install/
+/ros2_ws/log/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.DS_Store
+.env
+*.local.yaml
+/data/
+/bags/
+/maps/

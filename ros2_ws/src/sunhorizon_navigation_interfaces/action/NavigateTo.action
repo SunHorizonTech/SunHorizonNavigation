@@ -1,0 +1,15 @@
+string map_id
+geometry_msgs/PoseStamped goal
+builtin_interfaces/Duration timeout
+---
+bool success
+int32 code
+string task_id
+geometry_msgs/PoseStamped final_pose
+string reason
+---
+string task_id
+uint8 state
+geometry_msgs/PoseStamped current_pose
+float64 remaining_distance_m
+string safety_reason

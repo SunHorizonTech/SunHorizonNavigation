@@ -1,0 +1,59 @@
+{
+  "source": "Robot A 2026-09-10: one matched ghost depth and five goal23 moving depth frames; raw bytes kept outside git",
+  "width": 640,
+  "height": 480,
+  "step": 1280,
+  "bigendian": false,
+  "delta_m": 0.05,
+  "minimum_pixels": 65,
+  "frames": [
+    {
+      "file": "ghost-1789020469459704000.rawbin",
+      "input_sha256": "da49402c15a7887ebc7af323f7f9de66e728c7ea961b22b224550de231865dab",
+      "valid_pixels": 264109,
+      "removed_pixels": 5147,
+      "removed_components": 1046,
+      "mask_sha256": "78112f5a7fa9bdfb96baae18c5e4f2d94c020e82a639394f74501fa1cd2b9ac6"
+    },
+    {
+      "valid_pixels": 264450,
+      "removed_pixels": 4693,
+      "removed_components": 951,
+      "file": "0-1789018891898482000.rawbin",
+      "input_sha256": "0e2d32b081bc963a51e42f9ee6015305279018e087705ff2814f9f7dc01661d0",
+      "mask_sha256": "d764b97be11b6c0d381844a739d4b7a3f3c0082333014f68f6356eff5c5c446a"
+    },
+    {
+      "valid_pixels": 263022,
+      "removed_pixels": 3975,
+      "removed_components": 834,
+      "file": "1-1789018892532565000.rawbin",
+      "input_sha256": "02b0f28c9d2639db837d7c7bacfc755ef480d9ca8b5d8740f2b2b41616b329c5",
+      "mask_sha256": "4a24b66a41e8ccaa55a6c423ec6ec7113544bb9333348646e47265f6e2f64649"
+    },
+    {
+      "valid_pixels": 265347,
+      "removed_pixels": 5289,
+      "removed_components": 1140,
+      "file": "2-1789018893166648000.rawbin",
+      "input_sha256": "dc7cc5850b1966ef57a023e6609826aaf594db206546f99cb1f71e6fa9abd65b",
+      "mask_sha256": "3ad1805f3520ae39a847b32166c42e2384d7806c2a2152cf3c83d77c7b5dc6dd"
+    },
+    {
+      "valid_pixels": 263657,
+      "removed_pixels": 4042,
+      "removed_components": 866,
+      "file": "3-1789018893767361000.rawbin",
+      "input_sha256": "63b4ce442c8f0c1e1dcfbb2d0798686972f83399b75f945343f6fdee93d7d167",
+      "mask_sha256": "edaee0fa45665ad043f218a7b0bad342128dafe1d5a2f7602a73be2e5eca128f"
+    },
+    {
+      "valid_pixels": 263898,
+      "removed_pixels": 4791,
+      "removed_components": 876,
+      "file": "4-1789018894401444000.rawbin",
+      "input_sha256": "2ffbdd6e450b0e717491e4fea532b8fba603243b6f234c80ad8eaedda5957757",
+      "mask_sha256": "59c405db47aa65f7e4659c093e7750115f50f907ecd1c9058a7d1e85e1f5a565"
+    }
+  ]
+}

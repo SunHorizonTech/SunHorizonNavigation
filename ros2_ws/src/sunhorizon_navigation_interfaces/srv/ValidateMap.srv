@@ -1,0 +1,6 @@
+string map_id
+---
+bool valid
+int32 code
+string manifest_sha256
+string reason
